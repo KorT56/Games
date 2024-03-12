@@ -5,31 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" href= "mobile.css" media= "only screen and (max-device width:480px)"/>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./media.css">
     <title>House of gambling</title>
 </head>
 <body>
-<div class = "header">
-    <img class = "logo" src="./Adaptive1920/Logo -.png">
-<ul class = block_header_menu>
-    <li class = block_header_menu_li>About us</li>
-    <li class = block_header_menu_li>Brands</li>
-    <li class = block_header_menu_li>Commission</li>
-    <li class = block_header_menu_li>News</li>
-    <li class = block_header_menu_li>Contact us</li>
-    <li class = block_header_menu_li>Careers</li>
+    
 
+
+<header class = "header">
+    <img class = "logo" src="./Adaptive1920/Logo -.png">
+
+    <ul id="nav" class = "block_header_menu">
+    <li class = "block_header_menu_li">About us</li>
+    <li class = "block_header_menu_li">Brands</li>
+    <li class = "block_header_menu_li">Commission</li>
+    <li class = "block_header_menu_li">News</li>
+    <li class = "block_header_menu_li">Contact us</li>
+    <li class = "block_header_menu_li">Careers</li>
+    <li class = "block_header_menu_li" id="menu_li_login">
+        <div id="nav1" class = "block_header_login open">
+        <button class= "button_login" id="header_button">
+            <img class="unionv_button_login" src="./Adaptive1920/Union.png">
+            <p class = "en">En</p>
+        </button>
+        <button class= "button_login" id = "button_login_in">
+            <p class = "en">Log in</button></p>
+        <button class= "button_login" id = "button_sign_up">
+            <p class = "en">Sign up</p>
+        </button>
+        </div>
+   </li>
 </ul>
-<div class = block_header_login>
+
+<div class="header_mob"> 
+
+    <div class="logo_mob">
+       <p>1</p>
+    </div>
+
+    <button class="union_mob">
+        <img class="unionv_button_login" src="./Adaptive1920/Union.png">
+    </button>
+  
+    <button id = "nav-btn" class="nav-button">
+        <img id = "nav-btn-img" class="menu-button" src = "Adaptive1920/Menu.png">
+    </button>
+    
+    </div>
+    
+<!--<ul id="nav" class = "block_header_menu_mob_open">
+    <li class = "block_header_menu_li">About us</li>
+    <li class = "block_header_menu_li">Brands</li>
+    <li class = "block_header_menu_li">Commission</li>
+    <li class = "block_header_menu_li">News</li>
+    <li class = "block_header_menu_li">Contact us</li>
+    <li class = "block_header_menu_li">Careers</li>
+    <li class = "block_header_menu_li">
+   </li>
+</ul>-->
+
+<!--<div id="nav1" class = "block_header_login open">
     <button class= "button_login" id="header_button">
         <img class="unionv_button_login" src="./Adaptive1920/Union.png">
         <p class = "en">En</p>
     </button>
     <button class= "button_login">Log in</button>
     <button class= "button_login">Sign up</button>
-</div>
-</div>
+</div>-->
+
+
+
+</header>
 <div  class="container">
-    <div class="container_1">
+    <div class="container_1" id = "container_1_media">
         <div class="container_1_text_button">
         <h1 class="container_1_text_header">House of <p class="container_1_text_blue">
             the games</p></h1>
@@ -38,24 +86,30 @@
        </div>
         <div class="blick_img"><img class = "r" src="./Adaptive1920/Dot Light 1.png"></div>
     </div>
-   
+
     <div class="container_2">
    <!--<div class="container_2_block_1">-->
     <div class="c1">
         <p class="img_fich1_coln1">
+            <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Soccer 1.png">
+            <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
+            <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/$$.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/$$.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Soccer 1.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/$$.png">
+            <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
+            <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/$$.png">
+            <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Soccer 1.png">
         </p>
-        <p class="img_fich2_coln1">
+        <!--<p class="img_fich2_coln1">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/$$.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Soccer 1.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
         <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/$$.png">
-       </p>
+       </p>-->
     </div>
     <div class="c2">
         <p class="img_fich1_coln2">
@@ -67,7 +121,7 @@
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Timer.png">
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Group.png">
        </p>
-       <p class="img_fich2_coln2">
+       <!--<p class="img_fich2_coln2">
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/M.png">
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Timer.png">
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Group.png">
@@ -75,10 +129,11 @@
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/M.png">
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Timer.png">
         <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Group.png">
-       </p>
+       </p>-->
     </div>
     <div class="c3">
         <p class="img_fich1_coln3">
+           
         <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Group.png">
         <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/M 23.png">
         <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Shield.png">
@@ -86,8 +141,9 @@
         <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Shield.png">
         <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Group.png">
         <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/M 23.png">
+           
         </p>
-        <p class="img_fich3_coln3">
+        <!--<p class="img_fich3_coln3">
             <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Group.png">
             <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/M 23.png">
             <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Shield.png">
@@ -95,9 +151,38 @@
             <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Shield.png">
             <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Group.png">
             <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/M 23.png">
+            </p>-->
+    </div>
+    </div>
+
+
+    <div class="container_2_mob">
+        <!--<div class="container_2_block_1">-->
+         <div class="c1">
+             <p class="img_fich1_coln1">
+             <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
+             <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Soccer 1.png">
+             <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Shield.png">
+             <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/Group.png">
+             <img class = "container_2_img_coln" id = "coln1" src="./Adaptive1920/M 23.png">
+             </p>
+         </div>
+         <p class="img_fich1_coln2">
+            <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Group.png">
+            <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/World.png">
+            <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/M.png">
+            <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Timer.png">
+            <img class = "container_2_img_coln" id = "coln2" src="./Adaptive1920/Group.png">
+        </p>
+           <p class="img_fich1_coln3">
+            <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Soccer 1.png">
+            <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/M.png">
+            <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/Shield.png">
+            <img class = "container_2_img_coln" id = "coln3" src="./Adaptive1920/$.png">
             </p>
-    </div>
-    </div>
+        </div>
+
+
     <div class="container_3">
         <h2 class = "blog_header2" >Blog</h2>
         <div class = "blog_text_all">
@@ -154,6 +239,8 @@
         
     </futter>
 
+    <script src="script.js"</script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js"></script>
+    
 </body>
 </html>
