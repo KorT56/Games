@@ -60,6 +60,13 @@ text-transform: uppercase;
     margin-top: 2%; 
 }
 
+.menu_li {color: #fcfcfc;
+}
+
+.menu_li:hover {
+    color:#478BF9;
+}
+
 .block_header_menu_li:hover {
     color:#478BF9;
     text-decoration: underline;
@@ -163,8 +170,17 @@ text-transform: uppercase;
 }
 
 .en {
-    background-color: transparent;
+    background-color: transparent; 
 }
+ #er{
+    display: none;
+    position: absolute;
+ }
+
+ .hidden{
+    display: none;
+    position: absolute;
+ }
 
 .container {
     display: grid;
@@ -226,7 +242,7 @@ text-transform: uppercase;
 
 .е {
     width: 101.5%;
-    margin-top: -77%; 
+    margin-top: -76%; 
 }
 
 .img_blick_container_3  {
