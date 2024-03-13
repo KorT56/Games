@@ -60,7 +60,9 @@ text-transform: uppercase;
     margin-top: 2%; 
 }
 
-.menu_li {color: #fcfcfc;
+.menu_li {
+    color: #fcfcfc;
+    background-color: transparent;
 }
 
 .menu_li:hover {
