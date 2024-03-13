@@ -4,11 +4,12 @@
     display: block;
 }
 
-
 .union_mob {
     display: block;
     padding: 2px 2px 2px 2px;
 }
+
+.button_login {}
 
 }
 
@@ -77,6 +78,19 @@
         display: none;
     }
 
+    .header_mob {
+        position: fixed;
+        margin-top: -20px;
+        margin-left: -70px;
+        width: 420px;
+        padding: 15px 30px 15px 30px;
+        border: 0.19em solid #478BF9;
+        border-radius: 42em;
+        display: grid;
+        grid-template-columns: 30px 30px  30px;
+        z-index: 12;
+    }
+
     .block_header_menu.open {
         position: fixed;
         top: 0;
@@ -93,7 +107,6 @@
         margin-top: 15%;
     }
 
-    
     .nav-button {
         z-index: 9;
     }
@@ -104,13 +117,11 @@
         border-radius: 42em;
         padding: 15px 15px 15px 15px;
         width:100%;
-        
     }
 
     .block_header_menu.hover {
         color:#478BF9;
     }
-
 
     .block_header_login.open {
         position: fixed;
@@ -128,35 +139,50 @@
         margin-top:100%;
     }
 
+    .button_login {
+        position: absolute;
+    }
+
     #menu_li_login{
         border: none;
+        background-color: transparent;
     }
 
     #button_login_in {
-        margin-top: -50%;
         width: 99%;
+        margin-left: -90px;
     }
 
     #button_sign_up {
-        width: 99%
+        width: 99%;
+        margin-top: 30px;
+        margin-left: -90px;
     }
 
     #header_button {
         display: none;
     }
 
+    .button_container_1_become {
+        width: 50%;
+    }
+
     .container_2_mob{
         display: block;
+        width: 460px;
+        overflow: hidden;
+        margin-left: -30px;
     }
 
     .container_2 {
         display: none;
+        margin-top: -30px;
      }
      
      .img_fich1_coln1 {
       display: flex;
       display: grid;
-      grid-template-columns: 5em 5em 5em 5em 5em;
+      grid-template-columns: 5em 5em 5em 5em 5em 5em 5em 5em;
      }
      
      .container_2_img_coln {
@@ -167,7 +193,7 @@
      .img_fich1_coln2 {
          display: flex;
          display: grid;
-         grid-template-columns: 5em 11em 5em 5em 5em;
+         grid-template-columns: 5em 11em 5em 5em 5em 5em 11em 5em;
      }
      
      .img_fich1_coln3 {
@@ -178,16 +204,16 @@
 
      @keyframes movi_img {
          0%{
-             transform: translate(0, 0em);
+             transform: translate(-8, 0em);
          }
          25% {
-             transform: translate(2em, 0em);
+             transform: translate(-4em, 0em);
          }
          50% {
-             transform: translate(4em, 0em);
+             transform: translate(0em, 0em);
          }
          75%{
-             transform: translate(6em, 0em);
+             transform: translate(4em, 0em);
          }
          100%{
              transform: translate(8em, 0em);
@@ -214,18 +240,18 @@
      
      #coln1 {
          filter: brightness(50%);
-         animation: movi_img 8s ease-out 1s infinite alternate;
+         animation: movi_img 8s linear 1s infinite alternate;
      }
      
      #coln2 {
          filter: brightness(90%);
-         animation: movi_img_return 5s ease-out 1s infinite alternate;
+         animation: movi_img_return 5s linear 1s infinite alternate;
          overflow: hidden;
      }
      
      #coln3 {
          filter: brightness(65%);
-         animation: movi_img 6s ease-out 1s infinite alternate;
+         animation: movi_img 6s linear 1s infinite alternate;
      }
      
      .img_fich2_coln1 {
@@ -319,6 +345,7 @@
         grid-auto-flow: column;
         grid-gap: 5em;
         background-color: transparent;
+        
     }
     
     .img_fich1_coln1 {
@@ -403,19 +430,19 @@
     
     @keyframes movi_img_3 {
         0%{
-            transform: translate(0,-2em);
+            transform: translate(0, -3em);
         }
         25% {
-            transform: translate(0, 6em);
+            transform: translate(0, 0em);
         }
         50% {
-            transform: translate(0, 16em);
+            transform: translate(0, 3em);
         }
         75%{
-            transform: translate(0, 26em);
+            transform: translate(0, 6em);
         }
         100%{
-            transform: translate(0, 36em);
+            transform: translate(0, 9em);
         }
     }
     
@@ -439,17 +466,17 @@
     
     #coln1 {
         filter: brightness(50%);
-        animation: movi_img 4s ease-out 1s infinite alternate;
+        animation: movi_img 4s linear 1s infinite alternate;
     }
     
     #coln2 {
         filter: brightness(90%);
-        animation: movi_img_return 2s ease-out 1s infinite alternate;
+        animation: movi_img_return 2s linear 1s infinite alternate;
         overflow: hidden;
     }
     
     #coln3 {
         filter: brightness(65%);
-        animation: movi_img_3 4s ease-out 1s infinite alternate;
+        animation: movi_img_3 4s linear 1s infinite alternate;
     }
 }

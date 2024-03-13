@@ -16,4 +16,3 @@ navBtn.onclick = () => {
         navBtnImg.src = "./Adaptive1920/Menu.png";
     }
 }
-
