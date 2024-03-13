@@ -32,7 +32,7 @@ ul {
     color:rgb(175, 175, 175);
 }
 
-.container_1_text_header, .button_container_1_become, .blog_header2 {
+.container_1_text_header, .button_container_1_become, .blog_header2, .container_1_text_blue {
 text-transform: uppercase;
 }
 
@@ -165,8 +165,7 @@ text-transform: uppercase;
 .unionv_button_login {
     background-color: transparent;
     height: 1.3em;
-    margin-right: 15px;
-    border: 0.15em solid #9DADF2;
+    margin-right: 15px; 
 }
 
 .en {
@@ -206,6 +205,7 @@ text-transform: uppercase;
     margin-top:-2%;
     position: relative;
     background-color: transparent;
+    font-size: 280%;
 }
 
 .container_1_text_pod_header{
@@ -367,11 +367,11 @@ text-transform: uppercase;
     margin-bottom: 3%;
 }
 
-#activ_futter_menu {
+.activ_futter_menu {
     color:aliceblue;
 }
 
-#activ_futter_menu:hover {
+.activ_futter_menu:hover {
     color:#478BF9;
     text-decoration: underline;
 }

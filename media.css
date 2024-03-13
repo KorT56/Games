@@ -8,9 +8,6 @@
     display: block;
     padding: 2px 2px 2px 2px;
 }
-
-.button_login {}
-
 }
 
 
@@ -137,10 +134,12 @@
         row-gap: 5px;
         font-size: 20px;
         margin-top:100%;
+        background-color: transparent;
     }
 
     .button_login {
         position: absolute;
+        background-color: transparent;
     }
 
     #menu_li_login{
@@ -150,17 +149,23 @@
 
     #button_login_in {
         width: 99%;
-        margin-left: -90px;
+        margin-left: -80px;
     }
 
     #button_sign_up {
         width: 99%;
         margin-top: 30px;
-        margin-left: -90px;
+        margin-left: -80px;
     }
 
     #header_button {
         display: none;
+    }
+
+    .unionv_button_login{
+        border: 0.1em solid #478BF9;
+        border-radius: 42em;
+        padding: 1px;
     }
 
     .button_container_1_become {
@@ -238,18 +243,18 @@
          }
      }
      
-     #coln1 {
+     [data ="coln1"] {
          filter: brightness(50%);
          animation: movi_img 8s linear 1s infinite alternate;
      }
      
-     #coln2 {
+     [data ="coln2"] {
          filter: brightness(90%);
          animation: movi_img_return 5s linear 1s infinite alternate;
          overflow: hidden;
      }
      
-     #coln3 {
+     [data ="coln3"] {
          filter: brightness(65%);
          animation: movi_img 6s linear 1s infinite alternate;
      }
@@ -464,18 +469,18 @@
         padding-right: 5em;
     }
     
-    #coln1 {
+    [data ="coln1"] {
         filter: brightness(50%);
         animation: movi_img 4s linear 1s infinite alternate;
     }
     
-    #coln2 {
+    [data ="coln2"] {
         filter: brightness(90%);
         animation: movi_img_return 2s linear 1s infinite alternate;
         overflow: hidden;
     }
     
-    #coln3 {
+    [data ="coln3"] {
         filter: brightness(65%);
         animation: movi_img_3 4s linear 1s infinite alternate;
     }
