@@ -10,20 +10,22 @@
 }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 470px) {
 
 .header_mob {
         position: fixed;
-        margin-top: -20px;
-    
+        margin-top: 0px;
+        margin-left: -40px;
+        witch: 420px;
+}
 }
 
-@media(max-width: 470px) {
+@media(max-width: 600px) {
   
 
     .container {
         display: flex;
-        margin-to: 5px;
+        margin-top: 5px;
         margin-left: -50px;
     }
 
