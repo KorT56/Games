@@ -218,7 +218,7 @@
 
      @keyframes movi_img {
          0%{
-             transform: translate(-8, 0em);
+             transform: translate(-8em, 0em);
          }
          25% {
              transform: translate(-4em, 0em);
@@ -363,7 +363,7 @@
     }
     
     .img_fich1_coln1 {
-        display: relative;
+        
         margin-top: -20em;
     }
     
@@ -376,7 +376,7 @@
     }
     
     .img_fich2_coln2 {
-        display: relative;
+        
         margin-top: 30.6em;
     }
     
@@ -389,7 +389,7 @@
     }
     
     .img_fich1_coln3 {
-        display: relative;
+       
         margin-top: -24.7em;
     }
     

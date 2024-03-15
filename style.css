@@ -3,10 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet");
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet");
 
-
 * {
     background-color: #1E1231;
-    font-family: "Lexend", sans-serif;
+    font-family: "Popins", sans-serif;
 }
 
 body {
@@ -107,10 +106,6 @@ text-transform: uppercase;
 .union_mob {
     position: relative;
 }
-
-
-
-
 
 .block_header_menu_mob_open {
         display: none;
@@ -215,7 +210,6 @@ text-transform: uppercase;
 
 .container_1_text_pod_header{
     position: relative;
-    margin: none;
     background-color: transparent;
 }
 
@@ -270,7 +264,6 @@ text-transform: uppercase;
     background-color: transparent;
     margin-top: 15%;
     font-size: 200%;
-    font-style: bold;
 }
 
 .blog_text_all {
