@@ -77,8 +77,8 @@
 
     .header_mob {
         position: fixed;
-        margin-top: -20px;
-        margin-left: -70px;
+        margin-top: -10px;
+        margin-left: -50px;
         width: 420px;
         padding: 15px 30px 15px 30px;
         border: 0.19em solid #478BF9;
