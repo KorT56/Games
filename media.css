@@ -11,33 +11,20 @@
 }
 
 @media(max-width: 470px) {
-
-.header_mob {
+    .header_mob {
         position: fixed;
-        margin-top: 0px;
-        margin-left: -40px;
-        witch: 420px;
-}
-    #button_login_in {
-        width: 95%;
-        margin-left: -80px;
-        margin-top:20px;
-    }
-
-    #button_sign_up {
-        width: 95%;
         margin-top: 30px;
-        margin-left: -80px;
-    }
+        margin-left: -10px;
+        width: 400px;
 }
+}
+
 
 @media(max-width: 600px) {
   
 
     .container {
         display: flex;
-        margin-top: 5px;
-        margin-left: -50px;
     }
 
     .container_1{
@@ -265,18 +252,18 @@
          }
      }
      
-     [data ="coln1"] {
+     [data-coln1] {
          filter: brightness(50%);
          animation: movi_img 8s linear 1s infinite alternate;
      }
      
-     [data ="coln2"] {
+     [data-coln2] {
          filter: brightness(90%);
          animation: movi_img_return 5s linear 1s infinite alternate;
          overflow: hidden;
      }
      
-     [data ="coln3"] {
+     [data-coln3] {
          filter: brightness(65%);
          animation: movi_img 6s linear 1s infinite alternate;
      }
@@ -491,18 +478,18 @@
         padding-right: 5em;
     }
     
-    [data ="coln1"] {
+    [data-coln1] {
         filter: brightness(50%);
         animation: movi_img 4s linear 1s infinite alternate;
     }
     
-    [data ="coln2"] {
+    [data-coln2] {
         filter: brightness(90%);
         animation: movi_img_return 2s linear 1s infinite alternate;
         overflow: hidden;
     }
     
-    [data ="coln3"] {
+    [data-coln3] {
         filter: brightness(65%);
         animation: movi_img_3 4s linear 1s infinite alternate;
     }

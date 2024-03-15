@@ -19,6 +19,7 @@ ul {
     white-space: nowrap;
 }
 
+
 .futter_menu, .block_header_menu, .block_header_login, .social_media_text, .block_header_menu_li {
     font-size: 80%;
 }
@@ -104,15 +105,10 @@ text-transform: uppercase;
 }
 
 .union_mob {
-    
     position: relative;
 }
 
-#ling {
-    margin-left: -15px;
-    margin-top: 4px;
-    padding-right: 16px;
-}
+
 
 
 
@@ -179,6 +175,7 @@ text-transform: uppercase;
 .en {
     background-color: transparent; 
 }
+
  #er{
     display: none;
     position: absolute;
