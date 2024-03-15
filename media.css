@@ -18,6 +18,17 @@
         margin-left: -40px;
         witch: 420px;
 }
+    #button_login_in {
+        width: 95%;
+        margin-left: -80px;
+        margin-top:20px;
+    }
+
+    #button_sign_up {
+        width: 95%;
+        margin-top: 30px;
+        margin-left: -80px;
+    }
 }
 
 @media(max-width: 600px) {
